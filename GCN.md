@@ -54,7 +54,20 @@ $L_{\mathrm{sym}} :=D^{-\frac{1}{2}} L D^{-\frac{1}{2}}$ and $L_{\mathrm{rw}} :=
 
 ### Graph-Based Semi-Supervised Learning 
 
-$X=\left[\mathbf{x}_{1}, \mathbf{x}_{2}, \cdots, \mathbf{x}_{n}\right]^{\top} \in R^{n \times c}$   is the feature matrix, and $\mathbf{x}_{i} \in R^{c}$   is the c-dimensional feature vector of vertex $i$.
+
+
+### Graph Convolutional Networks
+
+
+There are mainly two types of GCNNs: spatial GCNNs and spectral GCNNs
+
+- Spatial GCNNs view the convolution as “patch operator” which constructs a new feature vector for each vertex using its neighborhood information.
+- Spectral GCNNs deﬁne the convolution by decomposing a graph signal  $\mathbf{s} \in R^{n}$   (a scalar for each vertex) on the spectral domain and then applying a spectral ﬁlter $g_{\theta}$   (a function of eigenvalues of $L_{\mathrm{sym}}$) on the spectral components. 
+
+## 3 Analysis 
+
+### 3.1 Why GCNs Work
+
 
 
 
