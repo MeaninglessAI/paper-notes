@@ -49,7 +49,12 @@ degree matrix $D=\operatorname{diag}\left(d_{1}, d_{2}, \ldots, d_{n}\right)$,�
 
 The graph Laplacian is defined as $L :=D-A$， and the two versions of normalized graph Laplacians are deﬁned as 
 
-$L_{\mathrm{sym}} :=D^{-\frac{1}{2}} L D^{-\frac{1}{2}}$ and $L_{\mathrm{rw}} :=D^{-1} L$
+$L_{\mathrm{sym}} :=D^{-\frac{1}{2}} L D^{-\frac{1}{2}}$ and $L_{\mathrm{rw}} :=D^{-1} L$ respectively.
+
+
+### Graph-Based Semi-Supervised Learning 
+
+$X=\left[\mathbf{x}_{1}, \mathbf{x}_{2}, \cdots, \mathbf{x}_{n}\right]^{\top} \in R^{n \times c}$   is the feature matrix, and $\mathbf{x}_{i} \in R^{c}$   is the c-dimensional feature vector of vertex $i$.
 
 
 
