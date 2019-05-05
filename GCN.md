@@ -40,3 +40,18 @@ However,it also brings potential concerns of over-smoothing. If a GCN is deep wi
  ## 2 Preliminaries and Related Works 
  
  $\mathcal{G}=(\mathcal{V}, \mathcal{E})$
+
+无向图
+
+邻接矩阵非负 $A=\left[a_{i j}\right] \in \mathbb{R}^{n \times n}$
+
+degree matrix $D=\operatorname{diag}\left(d_{1}, d_{2}, \ldots, d_{n}\right)$,其中$d_{i}=\sum_{j} a_{i j}$，代表顶点$i$的度。
+
+The graph Laplacian is defined as $L :=D-A$， and the two versions of normalized graph Laplacians are deﬁned as 
+
+$L_{\mathrm{sym}} :=D^{-\frac{1}{2}} L D^{-\frac{1}{2}}$ and $L_{\mathrm{rw}} :=D^{-1} L$
+
+
+
+
+
